@@ -1,0 +1,2 @@
+OS: Windows或Linux
+JDK: 1.6及以上版本
