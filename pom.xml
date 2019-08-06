@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>jxl-httpclient</groupId>
+	<groupId>com.github.suxingli</groupId>
 	<artifactId>jxl-httpclient</artifactId>
 	<version>1.0.1</version>
 
@@ -11,6 +11,35 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding> <!-- 编译时的编码 -->
 	</properties>
+
+	<!-- 版权许可 -->
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+	
+	<!-- 开发者信息 -->
+	<developers>
+		<developer>
+			<name>suxingli</name>
+			<email>996419917@qq.com</email>
+			<roles>
+				<role>owner</role>
+			</roles>
+			<timezone>+8</timezone>
+		</developer>
+	</developers>
+	
+	<!-- 代码库 -->
+	<scm>
+		<connection>scm:git:git@github.com:suxingli/jxl-httpclient.git</connection>
+		<developerConnection>scm:git:git@github.com:suxingli/jxl-httpclient.git</developerConnection>
+		<url>https://github.com/suxingli/jxl-httpclient.git</url>
+	</scm>
 
 	<!-- 编译设置 -->
 	<build>
